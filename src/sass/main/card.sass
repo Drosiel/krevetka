@@ -1,0 +1,89 @@
+.card
+    max-width: 271px
+    display: flex
+    flex-direction: column
+    flex: 0 0 25%
+    margin: 0 0 41px 0 
+    &__img
+        width: 270px
+        height: 200px
+        background: red
+        border-radius: 5px
+        overflow: hidden
+    &__top
+        margin: 15px 0 10px 0
+        display: flex
+        justify-content: space-between
+    &__title
+        font-style: normal
+        font-weight: 500
+        font-size: 18px
+        line-height: 28px
+    &__info
+        width: 24px
+        height: 24px
+        cursor: pointer
+    &__text
+        margin: 0 0 8px 0
+        font-style: normal
+        font-weight: normal
+        font-size: 14px
+        line-height: 22px
+        color: #75787E
+    &__bottom
+        display: flex
+        justify-content: space-between
+    &__prace
+        display: flex
+        margin: 0 0 10px 0
+        align-items: center
+        position: relative
+        &-new
+            font-style: normal
+            font-weight: 500
+            font-size: 24px
+            line-height: 32px
+            color: #111111
+        &:before
+            position: absolute
+            content: "849 ₽"  
+            text-decoration-line: line-through
+            bottom: -10px
+
+            font-style: normal
+            font-weight: 500
+            font-size: 12px
+            line-height: 18px
+            color: #B3B1B1
+    &__sale
+        width: 40px
+        height: 20px
+        padding: 1px 2px
+        margin: 0 0 0 10px
+
+        font-style: normal
+        font-weight: 500
+        font-size: 12px
+        line-height: 18px
+
+        display: flex
+        align-items: center
+        justify-content: center
+        color: #ffffff
+        background: #FFA500
+        border-radius: 4px
+    &__button
+        display: flex
+        align-items: center
+        justify-content: center
+        padding: 8px 30px
+        background: linear-gradient(0deg, #E7351D, #E7351D), linear-gradient(0deg, #FC5824, #FC5824), #E94F1D;
+        border-radius: 8px
+
+        font-style: normal
+        font-weight: 500
+        font-size: 16px
+        line-height: 24px
+
+        color: #ffffff
+        cursor: pointer
