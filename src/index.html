@@ -1,92 +1,133 @@
 <!DOCTYPE html>
 <html lang="ru">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <meta name="theme-color" content="#17181a"/>
-    
-    <link rel="preload" as="image" href="./img/sprite.svg"/>
-    <link rel="icon" href="favicon.ico" type="image/ico">
-</head>
-<body>
-    <header class="header">
-        <div class="header__inner">
-            <div class="header__top container">
-                <a href="" class="header__item logo header__logo">
-                    <div class="logo__icon">
-                        <img src="./img/logo.png" alt="">
-                    </div>
-                </a>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<meta name="theme-color" content="#17181a" />
 
-                <div class="header__item location">
-                    <div class="icon location__icon">
-                        <svg><use href="img/sprite.svg#location"></use></svg>
-                    </div>
-                    <span class="location__text">Екатеринбург</span>
-                </div>
+		<link rel="preload" as="image" href="./img/sprite.svg" />
+		<link rel="icon" href="favicon.ico" type="image/ico" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="header__inner">
+				<div class="header__top container">
+					<a href="" class="header__item logo header__logo">
+						<div class="logo__icon">
+							<img src="./img/logo.png" alt="" />
+						</div>
+					</a>
 
-                <nav class="header__item menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link-top">Меню</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link-top">Акции</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link-top">Доставка</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link-top">Отзывы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link-top">Вакансии</a></li>
-                    </ul>
-                </nav>
+					<div class="header__item location">
+						<div class="icon location__icon">
+							<svg>
+								<use href="img/sprite.svg#location"></use>
+							</svg>
+						</div>
+						<span class="location__text">Екатеринбург</span>
+					</div>
 
-                <div class="header__item phone">
-                    <div class="icon phone__icon">
-                        <svg><use href="img/sprite.svg#tel"></use></svg>
-                    </div>
-                    <div class="phone__contact">
-                        <span class="phone__num">8 800 407-11-70</span>
-                        <span class="phone__text">Звонок бесплатный</span>
-                    </div>
-                </div>
+					<nav class="header__item menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link-top">Меню</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link-top">Акции</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link-top">Доставка</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link-top">Отзывы</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link-top">Вакансии</a>
+							</li>
+						</ul>
+					</nav>
 
-                <div class="header__item login header__login">
-                    <div class="icon login__icon">
-                        <svg><use href="img/sprite.svg#user"></use></svg>
-                    </div>
-                </div>
+					<div class="header__item phone">
+						<div class="icon phone__icon">
+							<svg><use href="img/sprite.svg#tel"></use></svg>
+						</div>
+						<div class="phone__contact">
+							<span class="phone__num">8 800 407-11-70</span>
+							<span class="phone__text">Звонок бесплатный</span>
+						</div>
+					</div>
 
-                <div class="header__item basket">
-                    <div class="basket__icon">
-                        <svg><use href="img/sprite.svg#basket"></use></svg>
-                    </div>
-                    <div class="basket__prace">12 202 ₽</div>
-                </div>
-            </div>
+					<div class="header__item login header__login">
+						<div class="icon login__icon">
+							<svg><use href="img/sprite.svg#user"></use></svg>
+						</div>
+					</div>
 
-            <div class="header__bottom">
-                <nav class="header__item menu container">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a href="#" class="menu__link">Роллы</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Сеты</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Салаты</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Пицца</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Лапша, Рис</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Паста</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Сэндвичи</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Закуски</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Десерты</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Напитки</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Дополнительно</a></li>
-                        <li class="menu__item"><a href="#" class="menu__link">Комбо</a></li>
-                    </ul>
-                </nav>
-            </div>
-        </div>
-    </header>
+					<div class="header__item basket">
+						<div class="basket__icon">
+							<svg><use href="img/sprite.svg#basket"></use></svg>
+						</div>
+						<div class="basket__prace">12 202 ₽</div>
+					</div>
+				</div>
 
-    <main class="main">
-        <div class="main__inner container">
-            <div class="slider main__slider">
+				<div class="header__bottom">
+					<nav class="header__item menu container">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a href="#" class="menu__link">Роллы</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Сеты</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Салаты</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Пицца</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Лапша, Рис</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Паста</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Сэндвичи</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Закуски</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Десерты</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Напитки</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Дополнительно</a>
+							</li>
+							<li class="menu__item">
+								<a href="#" class="menu__link">Комбо</a>
+							</li>
+						</ul>
+					</nav>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<div class="main__inner container">
+				<!-- <div class="slider main__slider">
                 <div class="slider__inner">
                     <div class="slider__big">
-                        slider
+                        <div class="slider__big-track">
+                            <div class="slider__big-item">1</div>
+                            <div class="slider__big-item">2</div>
+                            <div class="slider__big-item">3</div>
+                            <div class="slider__big-item">4</div>
+                        </div>
                     </div>
     
                     <div class="slider__title">
@@ -94,298 +135,357 @@
                     </div>
     
                     <div class="slider__new">
-                        slider
+                        слайдер
                     </div>
                 </div>
-            </div>
-    
-            <div class="code main__code">
-                <div class="code__inner">
-                    <input class="code__input" type="text" placeholder="Введите промокод">
-                    <div class="code__arrow">
-                        <svg><use href="img/sprite.svg#arrow"></use></svg>
-                    </div>
-                </div>
-            </div>
+            </div> -->
 
-            <div class="grid main__grid">
-                <div class="grid__title">Пицца</div>
-                <div class="grid__deck">
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+				<div class="code main__code">
+					<div class="code__inner">
+						<input
+							class="code__input"
+							type="text"
+							placeholder="Введите промокод"
+						/>
+						<div class="code__arrow">
+							<svg><use href="img/sprite.svg#arrow"></use></svg>
+						</div>
+					</div>
+				</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+				<div class="grid main__grid">
+					<div class="grid__title">Пицца</div>
+					<div class="grid__deck">
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="card__img">
-                            <img src="./img/img1.png" alt="img">
-                        </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-                        <div class="card__top">
-                            <div class="card__title">Пицца Халапеньо</div>
-                            <div class="card__info">
-                                <svg><use href="img/sprite.svg#info"></use></svg>
-                            </div>
-                        </div>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+						<div class="card">
+							<div class="card__img">
+								<img src="./img/img1.png" alt="img" />
+							</div>
 
-                        <div class="card__text">Соус красный, куриное филе, салями, моцарелла, красный лук, халапеньо, свежие томаты</div>
+							<div class="card__top">
+								<div class="card__title">Пицца Халапеньо</div>
+								<div class="card__info">
+									<svg>
+										<use href="img/sprite.svg#info"></use>
+									</svg>
+								</div>
+							</div>
 
-                        <div class="card__bottom">
-                            <div class="card__prace">
-                                <div class="card__prace-new">799 ₽</div>
-                                <div class="card__sale">-150₽</div>
-                            </div>
+							<div class="card__text">
+								Соус красный, куриное филе, салями, моцарелла,
+								красный лук, халапеньо, свежие томаты
+							</div>
 
-                            <div class="card__button">
-                                Выбрать
-                            </div>
-                        </div>
-                    </div>
-                </div> 
-            </div>
+							<div class="card__bottom">
+								<div class="card__prace">
+									<div class="card__prace-new">799 ₽</div>
+									<div class="card__sale">-150₽</div>
+								</div>
 
-            <div class="about main__about">
-                <span>Тётя Креветка – роллы на дом</span>
-                <p>Сделать заказ вкусной и полезной еды на обед в офис или на ужин на дом удобно, как онлайн на сайте, так и заказав еду по телефону.</p>
-            </div>
-        </div>
-    </main>
+								<div class="card__button">Выбрать</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
-    <footer class="footer">
-        <div class="footer__inner container">
-            <div class="footer__top">
-                <div class="menu footer__menu">
-                    <ul class="menu__list">
-                        <li class="menu__item"><a class="menu__link" href="#">Меню</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Наши акции</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Доставка</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Отзывы</a></li>
-                        <li class="menu__item"><a class="menu__link" href="#">Вакансии</a></li>
-                    </ul>
-                </div>
+				<div class="about main__about">
+					<span>Тётя Креветка – роллы на дом</span>
+					<p>
+						Сделать заказ вкусной и полезной еды на обед в офис или
+						на ужин на дом удобно, как онлайн на сайте, так и
+						заказав еду по телефону.
+					</p>
+				</div>
+			</div>
+		</main>
 
-                <div class="social footer__social">
-                    <ul class="social__list">
-                        <li class="social__item">
-                            <a class="social__link" href="#">
-                                <div class="social__circle">
-                                    <div class="social__icon">1</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href="#">
-                                <div class="social__circle">
-                                    <div class="social__icon">2</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href="#">
-                                <div class="social__circle">
-                                    <div class="social__icon">3</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href="#">
-                                <div class="social__circle">
-                                    <div class="social__icon">4</div>
-                                </div>
-                            </a>
-                        </li>
-                        <li class="social__item">
-                            <a class="social__link" href="#">
-                                <div class="social__circle">
-                                    <div class="social__icon">5</div>
-                                </div>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
+		<footer class="footer">
+			<div class="footer__inner container">
+				<div class="footer__top">
+					<div class="menu footer__menu">
+						<ul class="menu__list">
+							<li class="menu__item">
+								<a class="menu__link" href="#">Меню</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Наши акции</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Доставка</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Отзывы</a>
+							</li>
+							<li class="menu__item">
+								<a class="menu__link" href="#">Вакансии</a>
+							</li>
+						</ul>
+					</div>
 
-            <div class="footer__bottom">
-                <div class="footer__text">
-                    <p>Тётя Креветка – это быстрая доставка готовой еды в городе Ставрополь. В меню представлены блюда: японской кухни – суши и роллы, китайская еда в коробочках вок, европейская итальянская кухня - пицца и паста, а также различные блюда категорий: салат, закуска, гриль и десерт.</p>
-                    <p>Сделать заказ вкусной и полезной еды на обед в офис или на ужин на дом удобно, как онлайн на сайте, так и заказав еду по телефону.</p>
-                    <p>Товары могут отличаться от фотографий соответствующих Товаров представленных на сайте.</p>
-                    <p>ИП Заря Евгений Сергеевич ИНН 262405416565 ОГРНИП 309264619700087 от 16 июля 2009 г.</p>
-                </div>
-            </div>
-        </div>
-    </footer>
+					<div class="social footer__social">
+						<ul class="social__list">
+							<li class="social__item">
+								<a class="social__link" href="#">
+									<div class="social__circle">
+										<div class="social__icon">1</div>
+									</div>
+								</a>
+							</li>
+							<li class="social__item">
+								<a class="social__link" href="#">
+									<div class="social__circle">
+										<div class="social__icon">2</div>
+									</div>
+								</a>
+							</li>
+							<li class="social__item">
+								<a class="social__link" href="#">
+									<div class="social__circle">
+										<div class="social__icon">3</div>
+									</div>
+								</a>
+							</li>
+							<li class="social__item">
+								<a class="social__link" href="#">
+									<div class="social__circle">
+										<div class="social__icon">4</div>
+									</div>
+								</a>
+							</li>
+							<li class="social__item">
+								<a class="social__link" href="#">
+									<div class="social__circle">
+										<div class="social__icon">5</div>
+									</div>
+								</a>
+							</li>
+						</ul>
+					</div>
+				</div>
 
-    <div class="app" id="app"></div>
-</body>
+				<div class="footer__bottom">
+					<div class="footer__text">
+						<p>
+							Тётя Креветка – это быстрая доставка готовой еды в
+							городе Ставрополь. В меню представлены блюда:
+							японской кухни – суши и роллы, китайская еда в
+							коробочках вок, европейская итальянская кухня -
+							пицца и паста, а также различные блюда категорий:
+							салат, закуска, гриль и десерт.
+						</p>
+						<p>
+							Сделать заказ вкусной и полезной еды на обед в офис
+							или на ужин на дом удобно, как онлайн на сайте, так
+							и заказав еду по телефону.
+						</p>
+						<p>
+							Товары могут отличаться от фотографий
+							соответствующих Товаров представленных на сайте.
+						</p>
+						<p>
+							ИП Заря Евгений Сергеевич ИНН 262405416565 ОГРНИП
+							309264619700087 от 16 июля 2009 г.
+						</p>
+					</div>
+				</div>
+			</div>
+		</footer>
+
+		<div class="app" id="app"></div>
+	</body>
 </html>

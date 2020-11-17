@@ -1,4 +1,5 @@
 import './js/main';
+import './js/slider';
 import sprite from "./img/sprite.svg";
 import img from "./img/img1.png";
 import logo from "./img/logo.png"
